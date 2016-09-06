@@ -1,0 +1,213 @@
+/* General*/
+
+*:focus {
+	outline: none;
+}
+
+.wrap {
+	
+	width: 90%;
+	max-width: 1100px;
+	margin: 5px auto;
+	
+}
+
+ul {
+	list-style: none;
+}
+
+/* -----------------------------------------
+  Nav Mobile
+   ----------------------------------------- */
+ 
+
+
+
+
+
+
+/* -----------------------------------------
+     Nav Desktop
+   ----------------------------------------- */
+   
+   .nav-desktop {
+   	
+   	background-color: #222;
+   	height: 50px;
+   	padding: 0px;
+   }
+   
+   .site-logo {
+   	 color: #fff;
+   	 line-height: 40px;
+   }
+   
+   
+  .nav-desktop .menu-desktop {
+  	background-color: transparent;
+  }
+  
+  .menu-desktop li  a {
+  	
+	display: inline-block;
+	line-height: 45px;
+	color: rgba(255,255,255, 0.8);
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-top: 0;
+  }
+  
+  .menu-desktop li a:hover {
+  	color: rgba(255,255,255, 0.5);
+  	background-color:rgba(255,255,255, 0.1);
+  }
+  
+  /* ----------------------------------
+     MOBILE NAV
+  ------------------------------------- */
+  
+  .title-bar {
+  	height: 50px;
+  	padding-top: 15px;
+  }
+  
+  .menu-mobile {
+  	padding: 10px 0px;
+  	margin-left: 0px;
+  	font-weight: bold;
+  }
+  
+  .menu-mobile ul {
+  	list-style: none;
+  
+  }
+  
+  .menu-mobile li a {
+  	display: block;
+  	line-height: 45px;
+	color: rgba(255,255,255, 0.8);
+	padding-left: 15px;
+	padding-top: 0px;
+	margin-top: 0px;
+  }
+  
+  .menu-mobile li a:hover {
+  	color: rgba(255,255,255, 0.5);
+  	background-color:rgba(255,255,255, 0.1);
+  }
+  
+  .off-canvas-wrapper, .off-canvas {
+  	background-color: #222; 
+  	margin: 0px 0px;
+  }
+  
+  .off-canvas-position-left ul {
+  	list-style: none;
+  	
+  }
+  
+  
+
+/* -----------------------------------------
+   banner section
+-------------------------------------------- */
+
+
+.hero {
+		background: #fff;
+		background-image:url("http://twitrheaders.com/wp-content/uploads/2014/05/Nebula-covered-night-sky.jpg");
+	/*	background-attachment:fixed; */
+		background-size:cover;
+		max-height: 550px;
+		padding: 80px 50px;
+		color:#ccc;	
+}
+
+.hero p {
+	font-size: 24px;
+	line-height: 30px;
+	min-width: 100px;
+	max-width: 600px;
+}
+
+
+.main {
+	padding: 60px 30px;	
+}
+
+
+.button {
+	border-radius: 5px;
+}
+
+
+.column {
+	margin-top: 30px;
+}
+
+ /* ------------------------------------
+  footer styles
+ --------------------------------------- */
+
+
+footer	{
+	background-color: #000;
+	color: #999;
+	padding: 30px 0px 0px 0px;
+	color:rgba(255,255,255, 0.5);
+	margin-bottom: 0px;
+	
+}
+
+
+
+footer a{
+	display: block;
+	color:rgba(255,255,255, 0.8);
+}
+
+footer p {
+	margin-bottom: 2px;
+	font-size: 1em;
+}
+
+footer a:hover  {
+	color:rgba(255,255,255, 0.5);
+}
+
+footer hr {
+	border-color: rgba(255,255,255, 0.2);
+	margin-top: 0px;
+}
+
+.footer-menus {
+	padding-bottom: 40px;
+}
+
+/* -----------------------------------------------
+	Copyright section
+--------------------------------------------------- */
+
+.copyright {
+    margin: 0 0;
+	height: 40px;
+	text-align: center;
+	background-color: #000;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+
+/* ---------------------------------------------------
+  Media Queries
+  ____________________________________________________ */
+  
+  @media (max-width: 640px) {
+  	
+  	.nav-desktop {
+  		display: none;
+  	}
+  	
+  }
+
+
